@@ -1,8 +1,3 @@
-import subprocess
-
-subprocess.run("cls", shell=True)
-
-
 def jogar():
 
     num_min = 1
@@ -58,7 +53,7 @@ print(
 )
 
 resposta = input(
-    "Vamos começar? (Digite sim para começar ou não para encerrar)").lower()
+    "Vamos começar? (Digite sim para começar ou não para encerrar) ").lower()
 
 if resposta == "sim":
     iniciar_jogo()
